@@ -1,0 +1,12 @@
+text = input("Enter String: ")
+
+result = ""
+
+for ch in text:
+
+    if ch.lower() in "aeiou":
+        result += ch.upper()
+    else:
+        result += ch
+
+print(result)
